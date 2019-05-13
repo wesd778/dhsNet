@@ -1,0 +1,8 @@
+Human's DHSs data downloaded from https://hgdownload-test.gi.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeRegDnaseClustered/.
+
+Choose "wgEncodeRegDnaseClusteredV3.bed.gz". Decompress and rename to "dhss.gff3".
+
+Human's genome sequencing data downloaded from http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/.
+
+The genome sequencing data should split according to chromosome format and rename to "chr*.fasta" in the form of Arabidopsis.
+

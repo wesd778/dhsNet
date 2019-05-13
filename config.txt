@@ -1,0 +1,39 @@
+
+
+[Arabidopsis]
+chromosomes = chr1;chr2;chr3;chr4;chr5
+kfold = 5
+mul_train = 0
+gap = 1000
+batch = 128
+max_epochs = 100
+data_file = ./raw/Arabidopsis/
+output_file = ./output/Arabidopsis/
+test_name = Arabidopsis_mul_test0.fasta
+model_name = Arabidopsis_50.pkl
+
+[Rice]
+chromosomes = chr1;chr2;chr3;chr4;chr5;chr6;chr7;chr8;chr9
+kfold = 5
+mul_train = 1
+gap = 50
+batch = 128
+max_epochs = 100
+data_file = ./raw/Rice/
+output_file = ./output/Rice/
+test_name = Rice_mul_test0.fasta
+model_name = Rice_50.pkl
+
+
+
+[Human]
+chromosomes = chr1;chr2;chr3;chr4;chr5;chr6;chr7;chr8;chr9;chr10;chr11;chr12;chr13;chr14;chr15;chr16;chr17;chr18;chr19;chr20;chr21;chr22
+kfold = 10
+mul_train = 1
+gap = 50
+batch = 128
+max_epochs = 100
+data_file = ./raw/Human/
+output_file = ./output/Human/
+test_name = Human_mul_test0.fasta
+model_name = Human_50.pkl

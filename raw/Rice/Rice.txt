@@ -1,0 +1,6 @@
+Rice's DHSs data and genome sequencing data downloaded from http://plantdhs.org/Download.
+
+Choose "Download DHSs gff file" Rice from TIGR7. Decompress and rename to "dhss.gff3".
+
+The genome sequencing data should split according to chromosome format and rename to "chr*.fasta" in the form of Arabidopsis.
+

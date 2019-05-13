@@ -1,0 +1,2 @@
+Arabidopsis,model_name,test_name,valid_sn,valid_sp,valid_acc,valid_mcc,valid_auc
+Arabidopsis,Arabidopsis_50.pkl,Arabidopsis_mul_test0.fasta,0.9096193512094506,0.922077922077922,0.9157914656069638,0.8316719276181133,0.9655065101232692
